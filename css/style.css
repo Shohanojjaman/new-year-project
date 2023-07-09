@@ -1,0 +1,59 @@
+/* ==========
+Golbal Style
+============= */
+body {
+    /* font-family: 'Inter', sans-serif; */
+    font-family: 'Work Sans', sans-serif;
+    font-size: 16px;
+    color: #444343;
+    line-height: 24px;
+    margin: 0;
+}
+
+button.secondary-btn {
+    background-color: #f15b22;
+    border-radius: 5px;
+    padding: 20px 25px;
+    border: none;
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+}
+
+/* ==============
+Banner Section
+================= */
+header {
+    margin: 0;
+}
+
+
+.banner {
+    background: url(../assets/image/banner1.png);
+    margin: 0;
+    min-height: 800px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center left;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.banner-description {
+    text-align: right;
+    margin-right: 230px;
+    flex-basis: 500px;
+}
+
+.banner-description h1 {
+    font-size: 65px;
+    font-weight: 700;
+    color: #151414;
+    margin: 0;
+    line-height: normal;
+}
+
+.banner-description button {
+    margin-top: 16px;
+}
