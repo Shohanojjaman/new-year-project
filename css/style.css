@@ -163,7 +163,8 @@ section#my-plan h2 {
 Bottom Banner Section
 ======================= */
 section#bottom-banner {
-    background: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0.00) 100%), url(../assets/image/watch.png);
+    background: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0.00) 100%), url(../assets/image/watch.png) no-repeat center center;
+    background-size: cover;
     min-height: 300px;
     margin-bottom: 130px;
     padding: 60px 65px;
