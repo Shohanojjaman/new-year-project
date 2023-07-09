@@ -117,3 +117,34 @@ section#my-failure {
     line-height: 26px;
 
 }
+
+/* ==============
+My Plan Section
+================= */
+section#my-plan {
+    padding-bottom: 130px;
+}
+
+section#my-plan h2 {
+    text-align: center;
+    font-size: 40px;
+    color: #151414;
+    margin-bottom: 50px;
+}
+
+.plans {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.plan-item h4 {
+    font-size: 30px;
+    color: #151414;
+    margin-top: 18px;
+    margin-bottom: 16px;
+}
+
+.plan-item p {
+    margin: 0;
+}
