@@ -1,13 +1,21 @@
 /* ==========
 Golbal Style
 ============= */
+* {
+    box-sizing: border-box;
+}
+
 body {
     /* font-family: 'Inter', sans-serif; */
     font-family: 'Work Sans', sans-serif;
     font-size: 16px;
     color: #444343;
-    line-height: 24px;
     margin: 0;
+}
+
+p {
+    line-height: 24px;
+
 }
 
 button.secondary-btn {
@@ -19,6 +27,7 @@ button.secondary-btn {
     font-weight: 600;
     color: white;
 }
+
 
 /* ==============
 Banner Section
@@ -56,4 +65,55 @@ header {
 
 .banner-description button {
     margin-top: 16px;
+}
+
+/* ========
+Main Area
+=========== */
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/* =========
+My Failure
+============ */
+section#my-failure {
+    display: flex;
+    align-items: center;
+    padding: 130px 0;
+}
+
+.failure-img,
+.failure-description {
+    flex-basis: 50%;
+}
+
+.failure-description {
+    margin-left: 85px;
+}
+
+.failure-description h2 {
+    color: #151414;
+    font-size: 40px;
+    margin-bottom: 24px;
+    margin-right: 35px;
+}
+
+.failure-description p {
+    margin-top: 0;
+    margin-right: 75px;
+}
+
+.failure-description ul {
+    padding: 0;
+}
+
+.failure-description ul li {
+    list-style: none;
+    background: url('../assets/image/icons/check.png') center left no-repeat;
+    padding: 5px 10px 5px 30px;
+    color: #444343;
+    line-height: 26px;
+
 }
